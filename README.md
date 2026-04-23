@@ -76,7 +76,7 @@ routes/
 - **Database:** SQLite
 - **Build Tools:** Vite 8, Tailwind CSS 4 (available but layout uses embedded CSS)
 - **Testing:** PHPUnit 12
-- **Containerisation:** Docker (PHP 8.2 CLI image)
+- **Containerisation:** Docker (PHP 8.3 CLI image)
 
 ---
 
