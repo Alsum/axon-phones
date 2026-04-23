@@ -1,0 +1,42 @@
+# Laravel
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+!storage/logs/.gitkeep
+!storage/framework/cache/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/views/.gitkeep
+!storage/app/public/.gitkeep
+/bootstrap/cache/*.php
+
+# Environment
+.env
+.env.backup
+.env.*.local
+
+# Database — keep the sqlite file in version control
+# (remove the line below if you don't want to commit it)
+# database/database.sqlite
+
+# IDE / OS
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# Composer
+composer.phar
+
+# PHPUnit
+/.phpunit.cache
+/phpunit.xml
+
+# Laravel Pint
+/.pint.cache
